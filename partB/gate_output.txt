@@ -1,0 +1,2 @@
+default: {'prod': {'mae': 11.955, 'mae_rush': 19.68, 'mae_rain': 11.623, 'p95_ms': 1.028}, 'candidate': {'mae': 6.105, 'mae_rush': 8.58, 'mae_rain': 6.285, 'p95_ms': 0.997}, 'criteria': {'mae_gain': True, 'p95_ms': True, 'rush_slice': True, 'rain_slice': True}, 'promote': True}
+min_rel_gain=0.60: {'prod': {'mae': 11.955, 'mae_rush': 19.68, 'mae_rain': 11.623, 'p95_ms': 1.017}, 'candidate': {'mae': 6.105, 'mae_rush': 8.58, 'mae_rain': 6.285, 'p95_ms': 1.005}, 'criteria': {'mae_gain': False, 'p95_ms': True, 'rush_slice': True, 'rain_slice': True}, 'promote': False}

@@ -1,0 +1,7 @@
+Ray CPUs: 2.0
+(a) weight 0.2, 1000 customers: share on candidate = 0.192, allowed 0.16 to 0.24
+(b) second call, 200 customers: 0 changed arm
+(c) after deleting and redeploying the same app, 200 customers: 0 changed arm
+(d) weight 0.2 to 0.5: 0 moved back to prod, 296 moved to candidate, share now 0.488
+(e) X-Beta: 1 on 50 prod customers: 50 served by candidate, 50 back on prod without the header
+ALL CHECKS PASSED

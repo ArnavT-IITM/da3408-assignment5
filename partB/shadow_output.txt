@@ -1,0 +1,5 @@
+requests sent to each server: 200
+mean absolute difference: 9.48 min
+differ by more than 10 min: 35.0%
+p95 latency prod (5101): 6.0 ms
+p95 latency candidate (5102): 6.0 ms
